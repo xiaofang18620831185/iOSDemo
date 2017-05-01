@@ -10,6 +10,10 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *lableLContraint;
+
 @end
 
 @implementation ViewController
@@ -32,6 +36,7 @@
     
     
     CGFloat x = 80;
+    self.lableLContraint.constant = x;
     normalLabel.frame = CGRectMake(x, x*1, 0, 0);
     mediumLabel.frame = CGRectMake(x, x*2, 0, 0);
     boldLabel.frame = CGRectMake(x, x*3, 0, 0);
@@ -46,6 +51,23 @@
 #warning UIFontWeightMedium NS_AVAILABLE_IOS(8_2)
     UIFont *font = [UIFont systemFontOfSize:size weight:UIFontWeightMedium];
     return font;
+//    CGFloat systemVersion = [UIDevice currentDevice].systemVersion.floatValue;
+//    if (systemVersion >= 9.0f) {
+//#warning UIFontWeightMedium NS_AVAILABLE_IOS(8_2)
+//        UIFont *font = [UIFont systemFontOfSize:size weight:UIFontWeightMedium];
+//        return font;
+//    }else{
+//        /*
+//         Helvetica-Bold,
+//         Helvetica,
+//         Helvetica-LightOblique,
+//         Helvetica-Oblique,
+//         Helvetica-BoldOblique,
+//         Helvetica-Light
+//        */
+//        UIFont *font =  [UIFont fontWithName:@"HelveticaNeue-Medium" size:size];
+//        return font;
+//    }
 }
 
 - (UIFont*)boldFont:(CGFloat)size {

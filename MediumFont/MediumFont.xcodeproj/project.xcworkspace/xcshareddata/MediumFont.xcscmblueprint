@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BDCF71B6C40D7284BCD078C7D2A280641DD45379",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CB3D4469EF43E2DD45C7362C2FE5C8C80FF3ABFD" : 9223372036854775807,
+    "BDCF71B6C40D7284BCD078C7D2A280641DD45379" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0287A432-FC98-45D9-B2E5-1BFD2680ED25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CB3D4469EF43E2DD45C7362C2FE5C8C80FF3ABFD" : "",
+    "BDCF71B6C40D7284BCD078C7D2A280641DD45379" : "Demo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MediumFont",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MediumFont\/MediumFont.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/y1024\/Demo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BDCF71B6C40D7284BCD078C7D2A280641DD45379"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/y1024\/UniversalModule",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CB3D4469EF43E2DD45C7362C2FE5C8C80FF3ABFD"
+    }
+  ]
+}
