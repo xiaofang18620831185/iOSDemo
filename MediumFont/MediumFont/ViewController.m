@@ -47,6 +47,7 @@
     
 }
 
+// 设置 MediumFont
 - (UIFont*)mediumFont:(CGFloat)size {
 #warning UIFontWeightMedium NS_AVAILABLE_IOS(8_2)
     UIFont *font = [UIFont systemFontOfSize:size weight:UIFontWeightMedium];
@@ -70,6 +71,7 @@
 //    }
 }
 
+// 设置 BoldFont
 - (UIFont*)boldFont:(CGFloat)size {
     UIFont *font = [UIFont boldSystemFontOfSize:size];
     return font;
